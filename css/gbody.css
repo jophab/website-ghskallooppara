@@ -1,0 +1,26 @@
+
+.profiles .info { list-style:none;  width:200px; height:300px;display:inline;}
+.profiles > li { width:200px; height:300px; float:left; }
+.info, .pic { position:absolute; width:200px; height:300px; }
+.info { font-family: 'Lato', sans-serif; color:cadetblue; font-size:18px; padding:5px; background-color:rgba(0, 0, 0, 0.5); width:140px; height:190px; opacity:0; text-align:right; }
+.info a { font-weight:bold; font-size:25px; color:#fff; text-decoration:none; }
+.info a:hover { text-decoration:underline; }
+.pic {
+color:white;
+text-align: center;
+
+}
+.pic img {
+    width: 150px;
+    height: 150px;
+border-radius:50%;
+margin: auto;
+}
+
+
+#flip { perspective: 1000px; }
+#flip .info { transition: all 0.8s; opacity:0; transform-style: preserve-3d; }
+#flip .info li { transform: rotateY(180deg); } /* Flip the text: Will be flipped back when animated */
+#flip .pic { transition: all 0.8s; backface-visibility: hidden; z-index:999; transform-style: preserve-3d;  }
+#flip li:hover .info { transform: rotateY(180deg); opacity:1 }
+#flip li:hover .pic { transform: rotateY(180deg); }
