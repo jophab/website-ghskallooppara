@@ -24,3 +24,8 @@ margin: auto;
 #flip .pic { transition: all 0.8s; backface-visibility: hidden; z-index:999; transform-style: preserve-3d;  }
 #flip li:hover .info { transform: rotateY(180deg); opacity:1 }
 #flip li:hover .pic { transform: rotateY(180deg); }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .profiles  ul  li{ margin: auto;}
+}

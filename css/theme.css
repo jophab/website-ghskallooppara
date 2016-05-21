@@ -47,22 +47,22 @@ input:focus, select:focus { outline: 2px solid #c1c1c1; outline: 2px solid rgba(
 body { background: #fff; }
 
 /* <<< Header >>> */
-header { width: 100%; position: fixed; top: 0px; left: 0px; height: 90px; background: #000033; opacity:1; z-index: 9; }
+header { width: 100%; position: fixed; top: 0px; left: 0px; height: 90px; background: #112222; opacity:1; z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
-header .site-logo { padding: 30px 0px 0px 0px; width: 220px; float: left; transition: all 0.3s;  }
+header .site-logo { padding: 30px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 33px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
-header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: #000033; opacity:1; }
+header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: #112222; opacity:1; }
 header.smaller .site-logo {padding: 13px 0px 0px 0px; }
 header.smaller .site-logo h1 { line-height: 30px; }
 header.smaller .site-logo h1 a { font-size: 30px;  }
 
 /* <<< Navigation >>> */
-.Navigation { float: right; width: 68.18%; margin-right: 11px; }
+.Navigation { float: right; width: 80%; margin-right: 11px; }
 .Navigation ul { list-style: none; margin: 0px; float: right; }
 .Navigation li { float: left; padding: 0px;  margin: 0px; height: 90px; position: relative; transition: all 0.3s ease; }
-.Navigation li a { padding: 42px 15px 36px 15px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.Navigation li a { padding: 30px 15px 36px 15px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 .Navigation li span {
 	border-bottom: solid 5px #e3860e;
 	
@@ -85,7 +85,7 @@ header.smaller .site-logo h1 a { font-size: 30px;  }
     color: #000033;
 }
 
-header.smaller .Navigation li a { padding: 16px 15px;}
+header.smaller .Navigation li a { padding: 16px 10px;}
 header.smaller .Navigation li { height: 60px; }
 
 .mobile { display: none;  }
@@ -165,12 +165,12 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
 	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 14px; color: #d8dfe5; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.Services_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
-	.Services_sec .Serviceside { padding: 76px 0px 30px 0px; width: 100%; overflow: hidden; }
+	.Services_sec .Serviceside { padding: 70px 0px 30px 0px; width: 100%; overflow: hidden; }
 	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
 	.Services_sec .Serviceside li { float: left; padding: 0px; margin: 0px 30px 0px 0px; text-align: center; width: 245px;border: 4px solid #fff;border-radius: 20px 20px 20px 20px; }
 .Services_sec .Serviceside li:hover { border: 4px solid #99ccff; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
-.Services_sec .Serviceside li a h4 { padding: 138px 0px 0px 0px;  font-size: 19px;  text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
+.Services_sec .Serviceside li a h4 {padding: 200px 0px 0px 0px;  font-size: 19px;  text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
 	.Services_sec .Serviceside li.Development { padding: 44px 0px 80px 0px;box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); }	.Services_sec .Serviceside li.Development a { text-decoration: none; display: block; }
 	.Services_sec .Serviceside li.Development h4 { color: #03a4df; }
 	

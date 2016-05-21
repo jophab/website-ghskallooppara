@@ -8,6 +8,7 @@ http://www.templatemo.com/tm-473-november
 
 @media only screen and (min-width: 769px) and (max-width: 10000px) {
 	#mobile_sec .menumobile { display: block!important; }
+    
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -70,7 +71,7 @@ http://www.templatemo.com/tm-473-november
 	header .Center { width: 100%; padding: 0px 2%; }
 	header .site-logo { padding: 27px 0 0 1px;  position: relative; z-index: 1; }
 	header .site-logo h1 { line-height: 33px; }
-	header.smaller .Navigation li a { padding: 16px 20px; }
+	header.smaller .Navigation li a { padding: 16px 10px; }
 
 	.Navigation {  margin-right: 0px; }
 	.Navigation li a { padding: 30px 10px; }
