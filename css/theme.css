@@ -96,10 +96,10 @@ header.smaller .Navigation li { height: 60px; }
 .mobile.closed .fa-times { display: block; }
 
 /* <<< Banner Section >>> */
-.Banner_sec { width: 100%; background-color:rgba(255, 255, 255, 1); height: 687px; position: relative; background-size: cover; }
+.Banner_sec { width: 100%; background-color:white; height: 687px; position: relative; background-size: cover; }
 .Banner_sec .bannerside { width: 100%; position: absolute; top: 150px; left: 0px; }
 .Banner_sec .Center { max-width: 1100px; margin: auto; }
-.Banner_sec .leftside { padding: 92px 0px 0px 0px; width: 28.90%; float: left; }
+.Banner_sec .leftside { padding: 70px 0px 0px 0px; width: 28.90%; float: left; }
 .Banner_sec .leftside h3 { font-size: 36px; color: #000033; font-family: 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; margin: 0px; line-height: 34px;}
 .Banner_sec .leftside h3 span { color: #ff9000; font-family: 'Open Sans', sans-serif; font-weight: 600; display: block; }
 .Banner_sec .leftside p { padding: 16px 0px 26px 0px; font-size: 16px; color: #000033; font-family: 'Open Sans', sans-serif; font-weight: 600; font-style: italic; margin: 0px; word-spacing: 2px; line-height: 22px; }
@@ -225,8 +225,68 @@ header.smaller .Navigation li { height: 60px; }
 	.activity .Center { width: 100%; margin: auto; overflow: hidden; text-align: center; }
 	.activity h2 { font-size: 57px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
 	.activity .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+#myBtn {
+    margin-top: 10px;
+	background-color:#44c767;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+#myBtn:hover {
+	background-color:#5cbf2a;
+}
+#myBtn:active {
+	position:relative;
+	top:1px;
+}
 
 
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 	/* <<< Contact Section >>> */
 	.Contact_sec { width: 100%; overflow: hidden;background: #fff; }
