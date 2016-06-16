@@ -1,4 +1,4 @@
-
+.profiles {margin-top:15px;}
 .profiles .info { list-style:none;  width:200px; height:300px;display:inline;}
 .profiles > li { width:200px; height:300px; float:left; list-style: none;}
 .info, .pic { position:absolute; width:200px; height:300px; }

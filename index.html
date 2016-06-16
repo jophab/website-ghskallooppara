@@ -11,11 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- <<Attched Stylesheets>> -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/theme.css" type="text/css" />
      <link rel="stylesheet" href="css/media.css" type="text/css" />
      <link rel="stylesheet" href="css/gallery.css" type="text/css" />
       <link rel="stylesheet" href="css/staff.css" type="text/css" />
       <link rel="stylesheet" href="css/activities.css" type="text/css" />
+	  <link rel="stylesheet" href="css/news_scroll.css" type="text/css">
      <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,600italic,400italic,800,700' rel='stylesheet' type='text/css'>
      <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
@@ -84,10 +86,12 @@
                     <!--  \\ Begin Left Side -->
                     <div class="leftside">
                         <h3>Govt. High School<span> Kallooppara</span></h3>
-                        <p>കല്ലൂപ്പാറ;– പേരു സൂചിപ്പിക്കുന്നതു പോലെ കല്ലും പാറകളും നിറഞ്ഞ പ്രകൃതി സുന്ദരമായ പ്രദേശം .ഏതാണ്ട് 95 കിലോമീറ്ററുകളോളം ദൈര്‍ഘ്യം വരുന്നതും പുളിക്കീഴ് കീച്ചേരിവാലില്‍ പമ്പാനദിയുമായി സംഗമിക്കുന്നതുമായ മണിമലയാറ് ഒരു കണ്ഠാഭരണം പോലെ ഈ ഗ്രാമത്തെ തലോലിക്കുന്നു.കുന്നിന്‍ തടങ്ങളാലും നദീതടങ്ങളാലും പ്രകൃതി കനിഞ്ഞനുഗ്രഹിച്ച ഭൂമി.
-
-</p>
-                        <a href="#about">More</a>
+                        <div id="news_iframe_scroll">
+							<div class="news_scroll-title">
+								News and Updates<br>
+							</div>
+							<iframe name="NewsIFrame" src="news_scroll.html" frameborder="0" scrolling="no"></iframe>
+						</div>
                     </div>
                     <!--  // End Left Side // -->
                     <!--  \\ Begin Right Side -->
@@ -210,11 +214,11 @@
                             </div>
                             <div class="Description">
                                 <h3>Academic Details<span></span></h3>
-                                <p>Classes : Standard V - X</p>
-                                <p>Syllabus : Kerala State Board</p>
-                                 <p>Medium : Malayalam, English</p>
-                                <p>Working Time : 10 am - 4 pm</p>
-                                <p>Managed By : Govt, of Kerala</p>
+                                <p class="acad">Classes : Standard V - X</p>
+                                <p class="acad">Syllabus : Kerala State Board</p>
+                                 <p class="acad">Medium : Malayalam, English</p>
+                                <p class="acad">Working Time : 10 am - 4 pm</p>
+                                <p class="acad">Managed By : Govt, of Kerala</p>
                             </div>
                         </div>
                         
@@ -225,12 +229,12 @@
             </div>
             <!-- // End About Section // -->
         <!-- \\ Begin Services Section \\ -->
-        <div class="Services_sec" id="facilities">
+        <div class="facilitysec" id="facilities">
             <div class="Center">
                 <h2>Facilities</h2>
                 <div class="Line"></div>
                 <!-- \\ Begin Services Side  \\ -->
-                <div class="Serviceside">
+                <div class="facilityside">
                     <ul>
 	                    <li class="Development" style="background-image:url(img/smart.jpeg);background-size:contain;"><a href="#"><h4>SMART CLASS ROOM</h4></a></li>
     	                <li class="Desdin"  style="background-image:url(img/comp.png);background-size:contain;"><a href="#"><h4>COMPUTER LAB</h4></a></li>
@@ -244,7 +248,7 @@
         </div>
         <!-- // End Services Section // -->
         <!-- \\ Begin Pricing Section \\ -->
-        <div class="Pricing_sec" id="gallery">
+        <div class="gallery_sec" id="gallery">
             <div class="Center">
                 <h2>Gallery</h2>
                 
@@ -327,14 +331,55 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">×</span>
-    <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
-      <p>Some text in the Modal..</p>
+	<table>
+	<table>
+  <tr>
+    <th>Name of Club</th>
+    <th>Name of Convener</th>
+   
+  </tr>
+  <tr>
+    <td>School Protection Club</td>
+    <td>Smt. M.S.RenukaBai(H.M.)</td>
+   
+  </tr>
+  <tr>
+    <td>Mathematics Club</td>
+    <td>Smt.Aleyamma Varkey.V(H.S.A.)</td>
+    
+  </tr>
+  <tr>
+    <td>School Protection Club</td>
+    <td>Smt. M.S.RenukaBai(H.M.)</td>
+ 
+  </tr>
+  <tr>
+    <td>Mathematics Club</td>
+    <td>Smt.Aleyamma Varkey.V(H.S.A.)</td>
+    
+  </tr>
+<tr>
+    <td>School Protection Club</td>
+    <td>Smt. M.S.RenukaBai(H.M.)</td>
+   
+  </tr>
+  <tr>
+    <td>Mathematics Club</td>
+    <td>Smt.Aleyamma Varkey.V(H.S.A.)</td>
+    
+  </tr>
+  <tr>
+    <td>School Protection Club</td>
+    <td>Smt. M.S.RenukaBai(H.M.)</td>
+ 
+  </tr>
+  <tr>
+    <td>Mathematics Club</td>
+    <td>Smt.Aleyamma Varkey.V(H.S.A.)</td>
+    
+  </tr>
+</table>
+
   </div>
 
 </div>
@@ -481,7 +526,7 @@
             <div class="Contactside">
                 <div class="Center">
                     <h2>Contact us</h2>
-                    <p></p>
+                   
                     <div class="Line"></div>
 
                 </div>
@@ -499,7 +544,7 @@
                     <div class="Mid">
                         <!-- \\ Begin Left Side \\ -->
                         <div class="Leftside">
-                            <h1>Quick Links<h1>
+                            <h1>Useful Links<h1>
                             <a href="#">Downloads</a><br>
                              <a href="#">Textbooks</a><br>
                             <a href="#">Downloads</a><br>
@@ -516,7 +561,7 @@
                                     (+001) 001 002 0034, (+002) 009 008 0760<br>(+003) 456 050 0670
                                 </address>
                                 <address class="Email">
-                                    <a href="mailto:info@november.com">abcd@efgr.com</a>
+                                    <a href="mailto:">abcd@efgr.com</a>
                                 </address>
                                 <div class="clear"></div>
                                 <ul>
