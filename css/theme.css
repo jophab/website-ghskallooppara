@@ -68,7 +68,7 @@ body { background: #fff; }
 /* <<< Header >>> */
 header { width: 100%; position: fixed; top: 0px; left: 0px; height: 90px; background: #112222; opacity:1; z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
-header .site-logo { padding: 30px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
+header .site-logo { padding: 20px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 33px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
@@ -119,7 +119,7 @@ header.smaller .Navigation li { height: 60px; }
 .Banner_sec .bannerside { width: 100%; position: absolute; top: 150px; left: 0px; }
 .Banner_sec .Center { max-width: 1100px; margin: auto; }
 .Banner_sec .leftside { padding: 40px 0px 0px 0px; width: 28.90%; float: left; }
-.Banner_sec .leftside h3 { font-size: 36px; color: #000033; font-family: 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; margin: 0px; line-height: 34px;}
+.Banner_sec .leftside h3 { font-size: 36px; color: #112222; font-family: 'Open Sans', sans-serif; font-weight: 800; text-transform: uppercase; margin: 0px; line-height: 34px;}
 .Banner_sec .leftside h3 span { color: #ff9000; font-family: 'Open Sans', sans-serif; font-weight: 600; display: block; }
 .Banner_sec .leftside p { padding: 16px 0px 26px 0px; font-size: 16px; color: #000033; font-family: 'Open Sans', sans-serif; font-weight: 600; font-style: italic; margin: 0px; word-spacing: 2px; line-height: 22px; }
 .Banner_sec .leftside a { padding: 11px 16px; font-size: 14px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 600; text-transform: uppercase; text-decoration: none; display: inline-block; border: solid 1px #b0bdc8; background: rgba(64, 93, 118, 0.8); transition: all 0.3s ease; }
@@ -247,11 +247,11 @@ header.smaller .Navigation li { height: 60px; }
 	.activity .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 #myBtn {
     margin-top: 20px;
-	background-color:#44c767;
+	background-color:#112222;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:8px;
-	border:1px solid #18ab29;
+	
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -259,14 +259,12 @@ header.smaller .Navigation li { height: 60px; }
 	font-size:17px;
 	padding:12px 31px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
+
 }
 #myBtn:hover {
-	background-color:#5cbf2a;
-}
-#myBtn:active {
-	position:relative;
-	top:1px;
+	background-color:#fff;
+	color:#112222;
+	border:1px solid #112222;
 }
 
 
@@ -344,7 +342,7 @@ tr:nth-child(even){background-color: #f2f2f2}
 		.Map #GoogleMap { height: 399px; }
 
 		/* Get Section */
-		.Get_sec { width: 100%; overflow: hidden; background-color:darkcyan; opacity:1; background-size: cover; }
+		.Get_sec { width: 100%; overflow: hidden; background-color:#112222; opacity:1; background-size: cover; }
 		.Get_sec .Mid { padding: 76px 0px 95px 0px; max-width: 1100px; margin: auto; overflow: hidden; }
 		.Get_sec .Leftside { width: 48.2%; float: left; }
 .Get_sec .Leftside h1 { font-size: 22px;color: white;}

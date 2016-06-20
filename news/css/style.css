@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+#nav-btn{
+  fill:white;
+  height:40px;
+  position:absolute;
+  right:10px;
+  top:7px;
+  display:none;
+}
+.vertical-line{
+	margin-top:30px;
+	margin-bottom:30px;
+	width:35px;
+	border-bottom:#F7F7F7 4px solid;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232525;
+}
+
+aside{
+	position:fixed;
+	float:left;
+	width:15%;
+	padding:20px;
+	top:0;
+	bottom:0;
+	background-color:#fff;
+	z-index:400;
+}
+
+header{
+	float:left;
+	width:80%;
+	padding-left:20%;
+	padding-top:10px;
+	padding-bottom:5px;
+	background-color:rgba(247, 247, 247, 1);
+	border-bottom:#2b99ff 2px solid;
+	position:fixed;
+	z-index:300;
+}
+
+article{
+	float:left;	
+	margin-left: 20%;	
+	margin-right: 9%;
+	padding-top:50px;	
+	width:70%;
+}
+article .fullwidth {
+
+	width:80%;
+	
+	
+}
+nav{
+  display:block;
+}
+
+nav ul{
+}
+
+nav ul li{
+	line-height:30px;
+}
+
+nav ul li a{
+	color:#e3e2e2;
+}
+
+nav ul li a:hover{
+	color:#2b99ff;
+}
+
+
+
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:2.4em;
+	font-weight:bold;
+	color:#474958;	
+	-webkit-transition: font-size 0.3s;
+	-moz-transition: font-size 0.3s;
+	-o-transition: font-size 0.3s;
+	transition: font-size 0.3s;
+}
+h4.back {
+	float:right;
+	
+	
+	
+}
+
+@media (max-width: 730px) {
+	h2{
+  	font-size:2em;
+  }
+  aside{
+		float:left;
+		width:95%;
+		padding-left: 5%;
+		position:relative;
+		float:left;
+		padding-top: 10px;
+		padding-bottom:10px;
+	}
+	header{
+		float:left;
+		position:relative;
+		width:95%;
+		padding-left:5%;
+	}
+	nav{
+	  display:none;
+  }
+  #nav-btn{
+    fill:white;
+    height:40px;
+    width:40px;
+    position:absolute;
+    right:7px;
+    top:7px;
+    display:block;
+    cursor: pointer;
+  }
+	h1{
+		margin-bottom: 0px;
+	}
+	.vertical-line {
+		margin-top: 20px;
+		margin-bottom: 20px;
+    display:none;
+	}
+	
+	article{
+		float:left;
+		width:90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top:50px;
+	}
+}
