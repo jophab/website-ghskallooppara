@@ -172,10 +172,10 @@ header.smaller .Navigation li { height: 60px; }
 	.About_sec .Tabside .TabImage .img2 { position: absolute; top: 40px; left: 2px; height: 260px;  background-position: 0px 223px; }
 	.About_sec .Tabside .TabImage .img2 img { padding: 5px; border: solid 1px #ececec; background: #fff;  }
 	.About_sec .Tabside .Description { width: 54.3%; float: right; text-align: left; margin-top: -6px;}
-	.About_sec .Tabside .Description h3 { font-size: 24px; color: #000; margin: 0px; text-transform: uppercase; font-family:'Open Sans'; line-height: 29px; }
+	.About_sec .Tabside .Description h3 { font-size: 24px;font-weight:bold; color: #000; margin: 0px; text-transform: uppercase; font-family:'Open Sans'; line-height: 29px; }
 	.About_sec .Tabside .Description h3 span { padding-left: 3px; font-size: 14px; color: #ff9000; display: block; }
-	.About_sec .Tabside .Description p { padding: 21px 0px 4px 0px; font-size: 18px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 25px; }
-	
+	.About_sec .Tabside .Description p { padding: 21px 0px 4px 0px; font-size: 15px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 25px; }
+	.About_sec .Tabside .Description p.acad {font-size:18px;}
 	.About_sec .Tabside .Description p .cyan { font-size: 16px; color: #08c2ff; }
 
 
