@@ -1,3 +1,3 @@
 # website-ghskallooppara
 
-A website for Govt High School Kallooppara
+Website for Govt High School Kallooppara
