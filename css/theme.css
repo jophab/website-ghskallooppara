@@ -66,7 +66,7 @@ input:focus, select:focus { outline: 2px solid #c1c1c1; outline: 2px solid rgba(
 body { background: #fff; }
 
 /* <<< Header >>> */
-header { width: 100%; position: fixed; top: 0px; left: 0px; height: 90px; background: #112222; opacity:1; z-index: 9; }
+header { width: 100%; position: fixed; top: 0px; left: 0px; height: 60px; background: #112222; opacity:1; z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
 header .site-logo { padding: 13px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
