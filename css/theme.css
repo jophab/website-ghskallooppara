@@ -345,9 +345,9 @@ tr:nth-child(even){background-color: #f2f2f2}
 		.Get_sec { width: 100%; overflow: hidden; background-color:#112222; opacity:1; background-size: cover; }
 		.Get_sec .Mid { padding: 76px 0px 95px 0px; max-width: 1100px; margin: auto; overflow: hidden; }
 		.Get_sec .Leftside { width: 48.2%; float: left; }
-.Get_sec .Leftside h1 { font-size: 22px;color: white;}
-.Get_sec .Leftside a {font-size: 18px;color:khaki; text-decoration: none;} 
-.Get_sec .Leftside a:hover {text-decoration: underline;}
+.Get_sec .Leftside h1 { font-size: 17px;color: white;}
+.Get_sec .Leftside a {font-size: 15px;color:khaki; text-decoration: none;} 
+.Get_sec .Leftside a:hover {color:white;}
 		.Get_sec .Rightside { padding-top: 12px; width: 48.18%; float: right;}
 		.Get_sec .Rightside h3 { padding-bottom: 44px; font-size: 46px; color: #f88e04; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform:uppercase; line-height: 46px; }
 		.Get_sec .Rightside address { padding: 0px 0px 27px 65px; margin-left: 3px; font-size: 14px; color: #ebedf1; font-family: 'Open Sans', sans-serif; font-weight: 400; font-style: normal; background: url(../img/location-icn.png) left 4px no-repeat; line-height: 24px;  }
