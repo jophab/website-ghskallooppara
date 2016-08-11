@@ -68,7 +68,7 @@ body { background: #fff; }
 /* <<< Header >>> */
 header { width: 100%; position: fixed; top: 0px; left: 0px; height: 60px; background: #112222; opacity:1; z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
-header .site-logo { padding: 20px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
+header .site-logo { padding: 13px 0px 0px 0px; width:100px; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 33px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
@@ -80,8 +80,8 @@ header.smaller .site-logo h1 a { font-size: 30px;  }
 /* <<< Navigation >>> */
 .Navigation { float: right; width: 80%; margin-right: 11px; }
 .Navigation ul { list-style: none; margin: 0px; float: right; }
-.Navigation li { float: left; padding: 0px;  margin: 0px; height: 90px; position: relative; transition: all 0.3s ease; }
-.Navigation li a { padding: 30px 15px 36px 15px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+.Navigation li { float: left; padding: 0px;  margin: 0px; height: 60px; position: relative; transition: all 0.3s ease; }
+.Navigation li a { padding: 16px 10px; font-size: 16px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 400; text-decoration: none; display: block; -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 .Navigation li span {
 	border-bottom: solid 5px #e3860e;
 	
@@ -177,7 +177,13 @@ header.smaller .Navigation li { height: 60px; }
 	.About_sec .Tabside .Description p { padding: 21px 0px 4px 0px; font-size: 15px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 25px; }
 	.About_sec .Tabside .Description p.acad {font-size:18px;}
 	.About_sec .Tabside .Description p .cyan { font-size: 16px; color: #08c2ff; }
-
+        
+        .About_sec .Tabside .academics { width:100%;  text-align:center; margin-top: -6px;}
+	.About_sec .Tabside .academics h3 { font-size: 22px;font-weight:bold; color: #000; margin: 0px; text-transform: uppercase; font-family:'Open Sans'; line-height: 29px; }
+	.About_sec .Tabside .academics p span { padding-left: 3px;font-weight:bold; font-size: 17px; color: #ff9000; display: block; }
+	.About_sec .Tabside .academics p { padding: 12px 0px 4px 0px; font-size: 15px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 20px; }
+	.About_sec .Tabside .academics p.acad {font-size:18px;}
+	.About_sec .Tabside .academics p .cyan { font-size: 16px; color: #08c2ff; }
 
 	/* Facility Section*/
 	.facilitysec{ padding: 114px 0px 90px 0px ; width: 100%; overflow: hidden; background-color:#fff; opacity:1; background-size: cover; }
