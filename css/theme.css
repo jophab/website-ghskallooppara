@@ -177,7 +177,13 @@ header.smaller .Navigation li { height: 60px; }
 	.About_sec .Tabside .Description p { padding: 21px 0px 4px 0px; font-size: 15px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 25px; }
 	.About_sec .Tabside .Description p.acad {font-size:18px;}
 	.About_sec .Tabside .Description p .cyan { font-size: 16px; color: #08c2ff; }
-
+        
+        .About_sec .Tabside .academics { width:100%;  text-align:center; margin-top: -6px;}
+	.About_sec .Tabside .academics h3 { font-size: 22px;font-weight:bold; color: #000; margin: 0px; text-transform: uppercase; font-family:'Open Sans'; line-height: 29px; }
+	.About_sec .Tabside .academics p span { padding-left: 3px;font-weight:bold; font-size: 17px; color: #ff9000; display: block; }
+	.About_sec .Tabside .academics p { padding: 12px 0px 4px 0px; font-size: 15px; color: #111; margin: 0px; font-family:'Open Sans'; line-height: 20px; }
+	.About_sec .Tabside .academics p.acad {font-size:18px;}
+	.About_sec .Tabside .academics p .cyan { font-size: 16px; color: #08c2ff; }
 
 	/* Facility Section*/
 	.facilitysec{ padding: 114px 0px 90px 0px ; width: 100%; overflow: hidden; background-color:#fff; opacity:1; background-size: cover; }
